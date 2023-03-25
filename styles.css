@@ -1,0 +1,703 @@
+body {
+    background-color: rgb(139, 121, 121);
+    margin: 0; 
+     
+  }
+
+  *{
+    font-family: sans-serif;
+    font-size: 150%;
+  }
+  li{
+    margin-top: 20px;
+    
+  }
+
+ 
+  img {
+    height: 100%;
+    width: 120%;
+    margin-right: 2px;
+  }
+
+  #cabecera{
+    
+    justify-content: space-between;
+  }
+  #cabecera div {
+    width: 80px;
+    height: 80px;
+    
+  }
+
+  #principal {
+  background-image: url(IMAGENES/Central/imagenCentral.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display:grid;
+
+}
+
+ .principal-contenedor{
+  display: flex;
+  align-content: center;
+  justify-content: left;
+  align-items: center;
+  margin-right: 20px;
+   
+ }
+ 
+ .principal{
+border: none;
+ }
+
+ .btn-principal {
+  border-radius: 50px;   
+  padding: 25px;
+  width: 300px;
+  color: #e4dcdc;
+  background-color: rgb(139, 121, 121);
+  opacity: 70%;
+ 
+}
+#principal-card {
+  margin-left: 20px;
+  max-width: 23rem;
+  font-size:x-large;
+  background-color: transparent;
+}
+ 
+.principal-titulo{
+  font-size: 25px;
+  font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.principal-texto{
+  font-size: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+}
+.sesion-productos {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background-color: rgb(139, 121, 121);
+  text-align: center;
+  background-color: var(--dark-brown-2);
+  
+}
+.producto-container, .productos2-container, .productos3-container, .productos4-container {
+  display: flex;
+ 
+  
+}
+.producto1-container, .producto2-container, .producto3-container {
+  opacity: 70%;
+  width: 50%;
+  height: 20%;
+  background-color: rgb(121, 108, 108);
+  padding: 0.1rem;
+  
+}
+
+.titulo-producto1{
+ 
+  color: #e4dcdc;
+  text-align: center;
+  align-content: center;
+  margin-bottom: 2rem;
+  font-size: 20px;
+}
+  
+.sesion-productos h2 {
+  font-size: 3.2rem;
+  text-align: center;
+  padding: 4rem;
+  color: var(--very-light-brown);
+}
+h3{
+ 
+  margin:0;
+  text-align: center;
+   align-content: center;
+   padding: 0.5rem;
+   color: #e4dcdc;
+   font-size: 80%;
+ }
+ 
+  
+ 
+.producto-img {
+  width: 50%;
+ 
+  object-fit: cover;
+  height: 325px;
+}
+.producto-img2{
+  width: 50%;
+  object-fit: cover;
+  height: 325px;
+}
+.producto-img3{
+  width: 50%;
+  object-fit: cover;
+  height: 325px;
+}
+.productos-p {
+  color: #ffead3;
+  font-size: 1.4rem;
+  line-height: 1rem;
+  margin: 2rem 4rem;
+  font-size: 18px;
+}
+
+.productos-p-bold {
+ 
+  font-size: 1.4rem;
+  font-weight: 400;
+  margin: 2rem 4rem;
+  font-size: 18px;
+}
+.btn-info {
+  display: block;
+  font-size: 1rem;
+  font-weight: 100;
+  color: #ffead3;
+  border: solid 4px #835728;
+  background-color: transparent;
+  padding: 0.2rem;
+  margin: auto;
+  cursor: pointer;
+}
+
+ .titulo-producto2{
+  margin:0;
+  text-align: center;
+   align-content: center;
+   padding: 0.5rem;
+  color:#835728;
+  font-size: 25%;
+ }
+
+ .productos4-container {
+  background-color:  #debfbf; 
+ 
+ }
+ .producto4{
+  width: 60%;
+}
+.producto4-p {
+  color: #835728; 
+  font-size: 1.4rem;
+  line-height: 1rem;
+  margin: 2rem 4rem;
+  font-size: 20px;
+}
+
+ .producto4-p-bold{
+  color: var(--very-light-brown);
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin: 1rem 4rem;
+ }
+ 
+
+ .btn-info-producto4{
+  display: block;
+  font-size: 1rem;
+  font-weight: 100;
+  color: #080808;
+  border: solid 4px #835728;
+  background-color: transparent;
+  padding: 0.2rem;
+  margin: auto;
+  cursor: pointer;
+ }
+
+ .producto-img-4{
+  object-fit: cover;
+  max-height: 480px;
+  max-width: 350px;
+  margin-top: 30px;
+ }
+
+ .contacto{
+  background-color: var(--dark-brown-2);
+  background-color: rgb(47, 43, 40);
+  font-size: 1.5rem;
+  
+ }
+ .contacto .producto-contacto{
+  font-size: 1.2rem;
+  padding: 1rem;
+  text-align: center;
+  color: var(--very-light-brown);
+  color: white;
+ }
+ .contacto-container{
+  display: flex;
+  justify-content: center;
+  background-color: rgb(47, 43, 40);
+ }
+ .producto-organico{
+  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+}
+
+ .contacto{
+  background-color: rgb(42, 38, 36);
+  color:white;
+  text-align: center;
+ }
+ 
+ .sesion-contacto{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+
+ }
+ .conocenos-p{
+  font-size: 1rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+ }
+
+ .titulo-contacto{
+  font-size: 1.1rem;
+  background-color: rgb(42, 38, 36);
+  padding: 0rem;
+  text-align: center;
+  color: var(--very-light-brown);
+  color: white;
+ }
+
+ .organico-img{
+  width: 100%;
+  object-fit: cover;
+  height: 325px;
+ }
+
+ .conocenos-img{
+  width: 50%;
+  object-fit: cover;
+  height: 600px;
+ }
+
+ .form{
+  background-color: white;
+  padding: 2rem 1rem;
+  width: 50%;
+ }
+ 
+ .form label{
+  color:rgb(121, 108, 108);
+  font-size: 0.8rem;
+  display: block;
+  margin: 1rem 0 .2rem;
+ }
+
+ .form input{
+  display: block;
+  width: 80%;
+  height: 30px;
+  background-color:  #e4dcdc;
+ 
+
+ }
+.form textarea{
+  width: 80%;
+  height: 80px;
+  display: block;
+  background-color:  #e4dcdc;
+}
+
+.btn-enviar{
+  display: block;
+  background-color:  #e4dcdc;
+  font-size: 1rem;
+  font-weight: 50;
+  margin: auto;
+  cursor: pointer;
+  color:rgb(121, 108, 108);
+}
+
+.titulo-receta{
+  background-color: rgb(139, 121, 121);
+  font-size: 1.1rem;
+  padding: 0rem;
+  text-align: center;
+  color: var(--very-light-brown);
+  color: white;
+}
+
+.recetas-container{
+  
+  background-color: rgb(139, 121, 121);
+  display: flex;
+  padding-bottom: 4rem;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+ 
+
+.conos-container, .pepas-container, .torta-container {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  min-width: 300px;
+  background-color:#e4dcdc;
+  padding-bottom: 2rem;
+}
+.img-conos {
+  width: 100%;
+  object-fit: cover;
+}
+.img-galletas{
+  width: 100%;
+}
+.img-torta{
+  width: 100%;
+}
+.h3-recetas {
+  font-size: 1.4rem;
+  text-align: center;
+  color: var(--dark-brown-2);
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+.p-recetas {
+  font-size: 1rem;
+  padding: 0 1rem;
+  margin-bottom: 1rem;
+  color: var(--very-light-brown);
+  line-height: 1rem;
+}
+
+.btn-preparacion {
+  display: block;
+  background-color:  #e4dcdc;
+  font-size: 1rem;
+  font-weight: 50;
+  margin: auto;
+  cursor: pointer;
+  color:rgb(121, 108, 108);
+}
+
+.footer-container {
+  display: flex;
+  background-color: black;
+  justify-content: space-around;
+  padding-bottom: 4rem;
+  height: 452px;
+  flex-wrap: wrap;
+}
+.logo-footer {
+  display: flex;
+  align-items: center;
+  margin: 4rem 0 0;
+  object-fit: contain;
+  width: 12%;
+  min-width: 100px;
+}
+.footer-menu, .footer-navegacion-container, .footer-redes-container, .footer-ubicacion-container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 1rem;
+  width: auto;
+  color: white;
+}
+.h4-footer {
+  color: #835728; 
+  font-weight: 80;
+  margin: 2rem 0 1rem;
+  font-size: 0.6rem;
+}
+.f-footer {
+  font-size: 0.8rem;
+  font-weight: 20;
+  color: var(--white);
+  text-decoration: none;
+  margin: 1rem 0;
+}
+.icons-footer {
+  width: 50px;
+}
+.vertical {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+ 
+
+@media screen and (max-width: 1000px){
+ .producto-container{
+  opacity: 70%;
+  width: 75%;
+  height: 10%;
+  background-color: rgb(121, 108, 108);
+  padding: 0.1rem;
+ }
+ .producto-img {
+  width: 50%;
+ 
+  object-fit: cover;
+  height: 455px;
+}
+
+.producto2-container{
+  opacity: 70%;
+  width: 38%;
+  height: 10%;
+  background-color: rgb(121, 108, 108);
+  padding: 0.1rem;
+ }
+ .producto-img2 {
+  width: 37%;
+ 
+  object-fit: cover;
+  height: 472px;
+}
+.producto-img3 {
+  width: 38%; 
+  object-fit: cover;
+  height: 520px;
+}
+.producto3-container{
+  opacity: 70%;
+  width: 37%;
+  height: 10%;
+  background-color: rgb(121, 108, 108);
+  padding: 0.1rem;
+ }
+
+ .producto-img-4{
+  max-width: 155px;
+  margin-top: 100px;
+ }
+
+ .contacto-container{
+  max-width: 720px;
+  margin-top: 50px;
+ }
+
+ .conocenos-img
+ {
+  width: 40%; 
+  height: 600px;
+ }
+ .form{
+  width: 36%; 
+  height: 600px;
+ }
+ .recetas-container{  
+  justify-content:flex-start;
+  margin: 0;
+ 
+}
+ .conos-container, .pepas-container, .torta-container {
+  line-height: 1rem;
+  display: flex; 
+  width: 25%;
+  min-width: 220px; 
+  
+}
+
+.footer-container {
+  display: flex; 
+  justify-content: flex-start;
+  padding-bottom: 1rem;
+  height: 800px; 
+}
+.footer-menu, .footer-navegacion-container, .footer-redes-container, .footer-ubicacion-container {
+  display: flex;
+justify-content: flex-start;
+  margin: 0 1rem;  
+  line-height: 1rem;
+  min-width: 80px; 
+  width: 2%;
+}
+.h4-footer{ 
+  font-size: 0.4rem;
+}
+.vertical {
+  display: block;
+  grid-template-columns: repeat(1, 0fr);
+}
+
+.titulo-receta{ 
+  font-size: 1.1rem;
+  padding: 0.1rem;
+ margin-right: 20%;
+ 
+}
+.titulo-contacto{ 
+  font-size: 1.1rem;
+  padding: 0.1rem;
+ margin-right: 20%;
+ 
+}
+.producto-contacto{ 
+  font-size: 1.1rem;
+  padding: 0.1rem;
+ margin-right: 20%;
+ 
+} 
+
+#cabecera{ 
+  font-size: 1.0rem;
+  padding: 0.1rem;
+ margin-right: 20%;
+}
+
+.principal-contenedor{
+ 
+  justify-content: flex-start;
+  width: 46%; 
+  height: 900px; 
+ }
+  }
+
+  @media screen and (max-width: 532px) {
+    
+ 
+     
+     .producto-container{
+      font-size: 0.4rem;
+      padding: 0.1rem;
+     margin-left:130px;
+     }
+.producto2-container{
+  font-size: 0.4rem;
+  padding: 0.1rem;
+ margin-left:130px;
+}
+ 
+.productos3-container{
+  font-size: 0.4rem;
+  padding: 0.1rem;
+ margin-left:130px;
+ }
+
+ .producto3-container{
+  width: 50%;  
+  height:550px;
+ }
+     .titulo-producto1{
+      font-size:0.4rem; 
+     }
+
+     .productos-p{
+      font-size:0.4rem; 
+     }
+
+
+     .productos-p{ 
+      width: 36%; 
+      height: 200px;
+      margin-left: 30%;
+      margin-top:5%;
+     }
+
+     .productos-p-bold{
+      width: 56%; 
+      height: 90px;
+      margin-left: 30%;
+     }
+
+     .producto-img{
+      height: 572px;
+     }
+     .producto-img2{
+      height: 552px;
+     }
+     .producto-img3{
+      height: 552px;
+      width: 50%;
+     }
+    .titulo-producto2{
+      font-size:0.8rem;   
+     margin-left:50%;
+    }
+     .producto4-p{
+       font-size: 0.6rem; 
+     margin-left:160px;
+     }
+
+     .producto4-p-bold{
+      font-size: 0.8rem; 
+      margin-left:150px;
+     }
+
+     .producto-img-4{
+      max-width:210px;
+      margin-top: 300px;
+     }
+
+     .btn-info-producto4{
+      margin-left:220px;
+     }
+     .principal-contenedor{
+      margin-top: 250px;
+      width:100%;  
+      height:650px;
+     }
+     .principal-texto{
+      font-size:0.7rem;   
+      margin-left:20%;
+     }
+     .principal-titulo{
+      font-size:0.9rem;   
+      margin-left:30%;
+     }
+      .producto-contacto{
+        font-size:0.2rem;   
+        margin-left:20%;
+     
+      }
+
+
+      .titulo-contacto{ 
+        font-size:0.9rem;   
+        margin-left:50%;
+      }
+.conocenos-img{ 
+  height: 640px;
+}
+
+      .form{
+        width:66%; 
+        height: 640px;
+       }
+
+       .titulo-receta{
+        font-size:0.9rem;   
+        margin-left:50%;
+       }
+
+.recetas-container{
+  justify-content: flex-end;
+ 
+ 
+}
+.conos-container, .pepas-container, .torta-container {
+  line-height: 1rem;
+  display: flex; 
+  width: 10%;
+  min-width: 210px; 
+  
+}  
+.footer-container .vertical { 
+  width:100%;  
+}
+.p-recetas{
+  font-size:0.9rem;   
+  margin-left:40%;
+}
+
+.vertical{
+  background-color: black;
+  line-height:0.8rem;
+}
+  }
+  
